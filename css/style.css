@@ -1,0 +1,106 @@
+.mt-80px{
+	margin-top: 80px;
+}
+.biodata-header{
+	background-color: #57aeea; /* For browsers that do not support gradients */
+   	background-image: linear-gradient(#478dd0, #57aeea, #478dd0);
+   	height: 150px;
+   	width: 100%;
+    position: relative;
+}
+.profile-pic{
+
+}
+.profile-pic img{
+	height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -60px;
+    left: 10px;
+    border: 3px solid #fff;
+}
+.name-container{
+	position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 15px;
+    padding-bottom: 5px;
+}
+.name-container h1{
+	color: #fff;
+    font-size: 24px;
+    margin: 0;
+}
+.name-container label{
+	font-size: 14px;
+    margin: 0;
+    color: #cfe2ef;
+}
+.biodata-content{
+	margin: 0 10px;
+	width: 100%;
+}
+.biodata-content h2{
+	color: #4e9bdc;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.biodata-content ul{
+	list-style: none;
+    padding: 0px 10px;
+}
+.biodata-content li{
+	margin: 0 10px;
+    width: 100%;
+}
+.biodata-content li label{
+	font-size: 11px;
+	color: #b1b1b1;
+    text-transform: uppercase;
+}
+.biodata-content li p{
+	font-size: 14px;
+    color: #545859;
+    font-weight: bold;
+}
+.biodata-content li p a{
+    color: #545859 !important;
+}
+.biodata-content li p a i{
+	margin-right: 3px;
+    font-size: 18px;
+    background: #54a8e5;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    padding-top: 7px;
+}
+.horoscope-container{
+
+}
+.horoscope-container table{
+	border-collapse: collapse;
+	border-color: #52a4e1;
+	text-align: center;
+	margin: 50px 0;
+	width: 100%;
+}
+.horoscope-container table tr td{
+	height: 76px;
+}
+.horoscope-container table tr td span{
+	font-size: 14px;
+    color: #545859;
+    display: block;
+}
+footer{
+	background: #54a8e5;
+    color: #fff;
+    padding: 5px 0;
+    text-align: center;
+}
